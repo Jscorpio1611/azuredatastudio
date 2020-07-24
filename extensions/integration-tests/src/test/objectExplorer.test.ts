@@ -44,7 +44,7 @@ suite('Object Explorer integration suite', () => {
 		const expectedActions = ['Manage', 'New Query', 'New Notebook', 'Disconnect', 'Delete Connection', 'Refresh', 'Data-tier Application wizard', 'Launch Profiler'];
 		await verifyContextMenu(server, expectedActions);
 	});
-	test('Standalone database context menu test', async function () {
+	test.skip('Standalone database context menu test', async function () {
 		const server = await getStandaloneServer();
 		let expectedActions: string[] = [];
 		// Generate Scripts and Properties come from the admin-tool-ext-win extension which is for Windows only, so the item won't show up on non-Win32 platforms
@@ -132,4 +132,3 @@ async function verifyDBContextMenu(server: TestServerProfile, timeoutinMS: numbe
 		await tryDeleteDB(server, dbName, ownerUri);
 	}
 }
-
