@@ -112,7 +112,7 @@
     "@types/keytar": "^4.4.0",
     "@types/minimist": "^1.2.0",
     "@types/mocha": "2.2.39",
-    "@types/node": "^12.11.7",
+    "@types/node": "^12.12.53",
     "@types/plotly.js": "^1.44.9",
     "@types/sanitize-html": "^1.18.2",
     "@types/sinon": "^1.16.36",
