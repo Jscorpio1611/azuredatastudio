@@ -153,7 +153,7 @@
     "gulp-filter": "^5.1.0",
     "gulp-flatmap": "^1.0.2",
     "gulp-gunzip": "^1.0.0",
-    "gulp-json-editor": "^2.5.0",
+    "gulp-json-editor": "^2.5.5",
     "gulp-plumber": "^1.2.0",
     "gulp-remote-retry-src": "^0.6.0",
     "gulp-rename": "^1.2.0",
